@@ -1,0 +1,33 @@
+---
+title: "Capstone Project"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+***
+
+## Problem 
+
+Employ a descriptive statistics model to analyze news story categories over the last ten years and identify any trends.
+
+### Client
+
+Anyone interested in using the resulting metadata to delve deeper to draw conclusions based upon any correlations.
+
+### Dataset
+
+The dataset used was obtained from Kaggle and consists of approximately 125k news headlines from 2013 thru 2018 from [HuffPost](https://www.huffingtonpost.com).
+
+This dataset consists of a single JSON document with the following structure:
+
+- **authors**       : Authors who published the article.
+- **category**      : Category
+- **date**          : Date published.
+- **headline**      : Headline text.
+- **article link**  : Link to the original.
+- **description**   : Short content description.
+
